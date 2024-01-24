@@ -185,7 +185,7 @@ func Resize(src *image.NRGBA, width int, height int) *image.NRGBA {
 	return dst
 }
 
-//convert image to NRGBA
+// convert image to NRGBA
 func convertToNRGBA(src image.Image) *image.NRGBA {
 	srcBounds := src.Bounds()
 	dstBounds := srcBounds.Sub(srcBounds.Min)
