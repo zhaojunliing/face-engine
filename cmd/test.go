@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	. "github.com/windosx/face-engine/v3"
-	"github.com/windosx/face-engine/v3/util"
+	. "github.com/zhaojunliing/face-engine/v3"
+	"github.com/zhaojunliing/face-engine/v3/util"
 )
 
 var imageInfo = util.GetResizedImageInfo("./test.jpg")

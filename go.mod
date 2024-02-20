@@ -1,3 +1,3 @@
-module github.com/windosx/face-engine/v3
+module github.com/zhaojunliing/face-engine/v3
 
 go 1.14

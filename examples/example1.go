@@ -1,15 +1,12 @@
 package main
 
 import (
-	"fmt"
-
-	. "github.com/windosx/face-engine/v4"
-	"github.com/windosx/face-engine/v4/util"
+	"github.com/zhaojunliing/face-engine/v3/util"
 )
 
 var imageInfo = util.GetResizedImageInfo("./mask.jpg")
 
-func main() {
+/*func main() {
 	// 激活SDK
 	if err := OnlineActivation("YourAppID", "YourSDKKey", "YourActiveCode"); err != nil {
 		fmt.Printf("%#v\n", err)
@@ -66,4 +63,4 @@ func main() {
 		fmt.Printf("%#v\n", err)
 		return
 	}
-}
+}*/
