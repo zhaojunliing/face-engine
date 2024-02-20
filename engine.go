@@ -2,7 +2,7 @@ package face_engine
 
 /*
 #cgo CFLAGS		: -I./include
-#cgo LDFLAGS	: -L${SRCDIR} -larcsoft_face_engine
+#cgo LDFLAGS	: -L${SRCDIR} -Wl,-rpath,$ORIGIN/arcsoft -larcsoft_face_engine
 #include <stdlib.h>
 #include "merror.h"
 #include "asvloffscreen.h"
